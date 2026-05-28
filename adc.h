@@ -5,7 +5,10 @@ void ADC_Init();
 
 void ADC_Start(int channel);
 
-/* Step 4: Check conversion complete */
 int ADC_IsDone();
 
+/* Step 5: Read result */
+int ADC_Read();
+
 #endif
+``
